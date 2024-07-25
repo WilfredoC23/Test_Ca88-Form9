@@ -1,0 +1,303 @@
+/*-------------------- START --------------------*/
+body {
+  font-size: 16px;
+  background: #590691 url(../img/bg.jpg) center top no-repeat;
+  line-height: 1.4em;
+  overflow-x: hidden;
+
+}
+body , html {
+  min-width: 1200px;
+  min-height: 2207px;
+}
+
+
+/*-------------------- Header  --------------------*/
+.header {
+  padding-top: 13px;
+}
+.event-title {
+  position: relative;
+  z-index: 2;
+  width: 90%;
+
+  left: 0%;
+  align-items: center;
+  margin: 2% auto 0;
+  padding: 4% 0 0 0;
+  transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+  z-index: 5;
+}
+.event-decorated {
+  position: absolute;
+  z-index: 2;
+  left: 2%;
+  top: -5%;
+  align-items: center;
+  margin: 4% auto 0;
+  transform: translatey(0px);
+	animation: float 3s ease-in-out infinite;
+  
+}
+/*-------------------- Content  --------------------*/
+body>.container>.content {
+  position: relative;
+  z-index: 3;
+  margin-top: 43%;
+}
+
+/* area03 */
+.event-area03 {
+  width: 844px;
+  max-width: 100%;
+  margin:  auto;
+  top: -60px;
+
+}
+.event-area03 .boxtop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: none;
+  margin: -13% auto 0;
+  z-index: 2;
+}
+.event-area03 .base-bg-extend-content {
+  padding: 5% 6% 7%;
+}
+
+.event-area03 .deco02 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: -36% -7% 0 0;
+  z-index: 1;
+  -webkit-animation: jumpy 1.7s 0.5s linear infinite;
+  animation: jumpy 1.7s 0.5s linear infinite;
+  transform-origin: 0% 100%;
+}
+.event-area03 .deco03 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: -29% auto 0;
+  z-index: 1;
+}
+
+.subtitle{
+  background: url(../img/bg_subtitle.png) no-repeat center center / 100% 100%;
+  color: #fff;
+  font-weight: bold;
+  font-family: 24px;
+  padding: 25px 110px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  margin: 0 0 5px 0;
+}
+.subtitle2{
+  background: url(../img/bg_subtitle2.png) no-repeat center center / 100% 100%;
+  color: #fff;
+  font-weight: bold;
+  font-family: 24px;
+  padding: 25px 110px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  margin: 0 0 5px 0;
+}
+
+.event-action {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-image: url('../img/box_1.png');
+  position: absolute;
+  left: 11%;
+  right: 0;
+  top: -77%;
+  z-index: 4;
+
+  width: 80%;
+  height: 870px;
+}
+
+.deco_box {
+  position: absolute;
+  z-index: 2;
+  left: -14%;
+  top: 78%;
+  width: 120%;
+  align-items: center;
+  margin: 4% auto 0;
+
+  
+}
+
+/*累積投注*/
+.betflow-box {
+  position: absolute;
+  bottom: 26%;
+  left: -4%;
+  right: 0;
+  margin: auto;
+  display: flex;
+  height: 35%;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.4;
+  align-items: center;
+  color: #fff9ef;
+  width:70%;
+  flex-direction: column;
+}
+.betflow-box h3 {
+  font-size: 34px;
+  font-weight: bold;
+  position: absolute; /* added */
+  top: 32%;
+  left: 7%;
+  right: 0; /* added */
+  bottom: 0; /* added */
+  margin: 10px 0 0 0;
+
+}
+.betflow-box .btn-refresh.refreshing {
+  -webkit-animation: rotating 1s linear infinite;
+  animation: rotating 1s linear infinite;
+}
+
+.intro-text {
+  color: #a9610c;
+  font-family: "Source Han Sans SC";
+  
+  margin-top: 4%;
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+.table {
+    width: 100%;
+    text-align: center;
+}
+.table tr th {
+    color: #fff;
+    background-color: #ad270c;
+    border: 1px solid #ffe6b9;
+    padding: 12px 8px;
+    font-weight: normal;
+}
+.table tr td {
+  color: #b33232;
+  background-color: #fff9d0;
+    border: 1px solid #f1a05e;
+    padding: 12px 8px;
+    vertical-align: middle;
+}
+.highlight {
+  display: inline-block;
+  color: #ffdf48;
+  text-align: left;
+}
+/*-------------------- Rule  --------------------*/
+ol.rule {
+  color: #ba3922;
+  margin: 0 0 0 3rem;
+  margin-top: -35%;
+  font-size: 1.05em;
+  line-height: 2.2em;
+  letter-spacing: 0.04em;
+  width: 82%;
+}
+ol.rule li {
+
+  margin-bottom: 0px;
+
+}
+.rule-link {
+    text-align: left;
+    padding-right: 15px;
+    margin: 10px 0 0 20px;
+}
+.rule-link a {
+    color: #bb2520;
+    font-size: 1em;
+    
+}
+.rule-wrap {
+  width: 88%;
+  margin: auto;
+}
+.btn-rule {
+  position: relative;
+  display: block;
+ width: 250px;
+margin: 0 auto 0;
+  
+}
+/*-------------------- Footer  --------------------*/
+.footer {
+  color: #ffefed;
+  font-size: 28px;
+  padding: 15px 0;
+top: 20px;
+  text-align: center;
+  margin-top: 100px;
+  height: auto;
+  position: relative;
+}
+.footer p {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 18px;
+}
+.popup-rule .popup-content {
+  margin: 0% auto;
+  width: 700px;
+ 
+
+}
+.popup-rule .pop-rule-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: -11% auto 0;
+  width: 83%;
+  z-index: 2;
+}
+.popup-rule .pop-close {
+  background-image: url(../img/iicons_back.png);
+  top: 65.5px;
+  left: 8%;
+  z-index: 7;
+  cursor: pointer;
+}
+.popup-rule .base-bg-extend-content {
+  padding: 0% 0% 0% 6%;
+}
+.popup-rule .pop-rule-deco {
+  width: auto;
+    position: absolute;
+    right: 23.2%;
+    top: 10%;
+    bottom: 0;
+    margin: 0 -1% 2% 0;
+}
+
+.box-rules {
+  position: absolute;
+  z-index: 2;
+  left: 2%;
+  top: -10%;
+  align-items: center;
+  margin: 4% auto 0;
+
+  
+}
